@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom left, #121524, #412F35);
+    color: #fff;
+    gap: 2rem;
+    min-height: 100vh;
+}
+.filterBox{
+    display: flex;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+.filterInput{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: #351111;
+    color: #fff;
+    padding: 4px 10px;
+}
+.customButton{
+    background-color: #134E70;
+    border-radius: 20px;
+    border: none;
+    padding: 7px 30px;
+    cursor: pointer;
+}
+.customButton:active{
+    background-color: #061c29;
+  }
+/* Card section */ 
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    gap: 3rem; 
+}
