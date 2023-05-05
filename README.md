@@ -1,3 +1,1 @@
-# 
-
-[Live Preview](https://fmss-ademberk.netlify.app/).
+[Live Preview Link](https://fmss-ademberk.netlify.app/).
